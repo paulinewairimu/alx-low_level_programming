@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_sign - Printys sum
- * @n: The nmber
- * Return: 1 for all
+ * print_sign - Prints the sign of a number
+ * @n: The number to be checked
+ * Return: 1 for positive sum, -1 for negative sum or zero for anythig else
  */
 int print_sign(int n)
 {
@@ -22,4 +22,4 @@ int print_sign(int n)
 		_putchar(48);
 		return (0);
 	}
-
+}
